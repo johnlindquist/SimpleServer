@@ -1,0 +1,23 @@
+{
+  "name": "SimpleServer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.4.3",
+    "cors": "~2.4.1",
+    "express": "~4.6.1",
+    "lodash": "~2.4.1",
+    "sequelize": "~1.7.9",
+    "sequelize-sqlite": "~1.7.0",
+    "sqlite3": "~2.2.3",
+    "objectdiff": "~1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
